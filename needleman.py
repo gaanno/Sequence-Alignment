@@ -124,6 +124,7 @@ class NW(object):
         self._resultados["costo extension"] = self._costo_ext * extension
 
     def _get_identidad_similitud(self):
+        """ Calcula estadísticas """
         identidad = 0
         similitud = 0
         gaps = 0
